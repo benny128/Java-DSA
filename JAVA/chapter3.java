@@ -4,20 +4,6 @@ Question 1 : Write a Java program to get a number from the user and print whethe
 positive or negative 
 
 
-import java.util.*;
-public class chapter3 {
-    public static void main(String[] args) {
-        System.out.print("Enter any number : ");
-        Scanner sc=new Scanner (System.in);
-        int num=sc.nextInt();
-        if(num<0){
-            System.out.println("Entered number is Negative");
-        }
-        else{
-            System.out.println("Entered number is Postive");
-        }
-    }
-}
 
 
 Question 2 : Finish the following code so that it prints You have a fever if your temperature
@@ -99,3 +85,18 @@ year is a leap year or not.
 //        }
 //     }
 // }
+
+import java.util.*;
+public class chapter3 {
+    public static void main(String[] args) {
+        System.out.print("Enter any number : ");
+        Scanner sc=new Scanner (System.in);
+        int num=sc.nextInt();
+        if(num<0){
+            System.out.println("Entered number is Negative");
+        }
+        else{
+            System.out.println("Entered number is Postive");
+        }
+    }
+}
